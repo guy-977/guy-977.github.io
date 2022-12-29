@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script  src="contact.js" defer></script>
+    <link rel="stylesheet" href="src/contact.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace, sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(30deg, lightgreen, dodgerblue, blue);
+            overflow: hidden;
+        }
+
+        .contact-nav {
+            width: 100%;
+            padding: 3rem 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 4rem;
+            background: rgb(26, 25, 25);
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .contact-nav h2 {
+            color: white;
+            border: none;
+        }
+
+        .contact-nav ul {
+            display: flex;
+        }
+
+        .contact-nav ul li {
+            list-style: none;
+        }
+
+        .contact-nav ul li a {
+            text-decoration: none;
+            padding: 5px 1rem;
+            margin: 0 10px;
+            color: rgb(232, 228, 102);
+            position: relative;
+        }
+
+        .contact-nav ul li a::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            border-top:  2px solid rgb(232, 228, 102);
+            border-left:  2px solid rgb(232, 228, 102);
+            transition: all 0.4s;
+        }
+
+        .contact-nav ul li a::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            border-bottom:  2px solid rgb(232, 228, 102);
+            border-right:  2px solid rgb(232, 228, 102);
+            transition: all 0.4s;
+        }
+
+        .contact-nav ul li a:hover::after, .contact-nav ul li a:hover::before {
+            content: '';
+            width: 10%;
+            height: 20%;
+            transform: rotate(360deg);
+        }
+
+        .logo {
+            position: relative;
+            font-size: 40px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo:before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            height: 6px;
+            width: 0;
+            background: #4070f4;
+            border-radius: 50px;
+            transition: width 0.3s ease;
+        }
+
+        .logo:hover::before {
+            width: 100%;
+        }
+    </style>
+
+    <title>Ahmed Alrufai | Contact</title>
+</head>
+<body>
+    <div class="contact-nav">
+        <h2><a href="index.html" class="logo">Ahmed</a></h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+        </ul>
+    </div>
+    <h1>NOT ENOUGH, ADD ILLUSTRATIONS</h1>
+    <form class="form">
+        <h2>CONTACT ME</h2>
+        <p type="Name:"><input placeholder="Write your name here.."></input></p>
+        <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+        <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+        <button>Send Message</button>
+        <div>
+          <span class="fa fa-envelope-o"></span> aalrefaei93@gmail.com
+        </div>
+      </form>
+</body>
+</html>

@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 :root {
@@ -14,7 +15,6 @@
 body {
     margin: 0;
     background: var(--main-theme-gray2);
-    font-family: cursive;
     color: aliceblue;
 }
 

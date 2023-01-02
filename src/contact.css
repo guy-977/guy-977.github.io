@@ -194,4 +194,38 @@ span {
         overflow: scroll !important;
         scroll-behavior: smooth;
     }
+
+    .contact-nav h2 {
+        font-size: 2.7rem;
+    }
+
+    .contact-nav ul li {
+        margin: -5px;
+    }
+
+    .contact-nav ul li a {
+        font-size: 15px;
+    }
+
+    .contact-nav ul li a::after, .contact-nav ul li a::before {
+        border: none;
+    }
+
+    .canv-container {
+        width: 100%;
+        height: 80vh;
+    }
 }
+
+@media (max-width: 385px){
+    .contact-nav h2 {
+        font-size: 2rem;
+        left: 25px;
+        position: relative;
+    }
+
+    .contact-nav ul li {
+        margin: -12px;
+    }
+}
+

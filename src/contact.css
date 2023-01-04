@@ -13,9 +13,8 @@
     --box-inner: #4706ec;
 }
 
-body {
+.body-contact {
     background: var(--gradient1);
-    overflow: hidden;
 }
 .form {
     width:340px;
@@ -31,7 +30,11 @@ body {
     position:relative;
 }
 
-h2 {
+.body-contact h1 {
+    all: unset;
+}
+
+.body-contact main form h2 {
     margin:10px 0;
     padding-bottom:10px;
     width:180px;
@@ -39,7 +42,7 @@ h2 {
     border-bottom:3px solid var(--main-theme);
 }
 
-input {
+.body-contact input {
     width:100%;
     padding:10px;
     box-sizing:border-box;
@@ -52,11 +55,11 @@ input {
     border-bottom:2px solid var(--main-theme);
 }
 
-input:focus {
+.body-contact input:focus {
     border-bottom:2px solid var(--main-theme);
 }
 
-p:before {
+.body-contact p:before {
     content:attr(type);
     display:block;
     margin:28px 0 0;
@@ -64,7 +67,7 @@ p:before {
     color: var(--main-theme-gray2);
 }
 
-button {
+.body-contact button {
     float:right;
     padding:8px 12px;
     margin:8px 0 0;
@@ -76,12 +79,12 @@ button {
     transition:all .3s
 }
 
-button:hover {
+.body-contact button:hover {
     background:var(--main-theme);
     color:#fff
 }
 
-div {
+.mail-span {
     content:'Hi';
     position:absolute;
     bottom:-15px;
@@ -95,7 +98,7 @@ div {
     box-shadow:10px 10px 40px -14px #000
 }
 
-span {
+.mail-span span {
     margin:0 5px 0 15px
 }
 
@@ -129,7 +132,6 @@ span {
             text-decoration: none;
             padding: 5px 1rem;
             margin: 0 10px;
-            color: var(--main-theme);
             position: relative;
         }
 

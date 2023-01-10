@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 ### Github Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=guy-977&show_icons=true&theme=dark&hide_border=true)]
+![Ahmed's GitHub stats](https://github-readme-stats.vercel.app/api?username=guy-977&show_icons=true&theme=radical)
 
 ### Top Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guy-977&layout=compact&theme=vision-friendly-dark&hide_border=true)]

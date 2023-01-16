@@ -46,7 +46,7 @@ body {
 
 b {
     font-size: 70px;
-    color: #7e0404;
+    color: var(--main-theme);
 }
 
 

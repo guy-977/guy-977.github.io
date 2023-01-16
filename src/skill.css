@@ -193,7 +193,7 @@
     position: absolute;
     height: 6px;
     width: 120px;
-    background: aliceblue;
+    background: var(--main-theme);
     border-radius: 50px;
     transition: width 0.3s ease;
     margin-top: 35px;
@@ -245,6 +245,43 @@
     margin: 30px;
     
 }
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.cyan {
+    background: cyan;
+}
+
+.blue {
+    background: blue;
+}
+
+.indigo {
+    background: indigo;
+}
+
+.blue-violet {
+    background: blueviolet;
+}
+
+.magenta {
+    background: magenta;
+}
+
 
 @media (max-width: 440px) {
 

@@ -168,29 +168,6 @@
             transform: rotate(360deg);
         }
 
-        .logo {
-            position: relative;
-            font-size: 40px;
-            font-weight: 600;
-            color: white;
-            text-decoration: none;
-        }
-
-        .logo:before {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            height: 6px;
-            width: 0;
-            background: #4070f4;
-            border-radius: 50px;
-            transition: width 0.3s ease;
-        }
-
-        .logo:hover::before {
-            width: 100%;
-        }
-
 @media (max-width: 440px) {
     body {
         overflow: scroll !important;

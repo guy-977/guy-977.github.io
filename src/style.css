@@ -25,12 +25,13 @@ body {
 }
 
 .nav-hp {
-    display: flex;
-    width: 100%;
-    height: 80px;
-    justify-content: space-between;
-    line-height: 80px;
-    z-index: 99;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  line-height: 80px;
+  z-index: 99;
 }
 
 .logo {
@@ -42,6 +43,27 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     margin: 0 0 0 30px;
+    position: relative;   
+}
+
+.logo a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.logo:before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  height: 6px;
+  width: 0;
+  background: #4070f4;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+
+.logo:hover::before {
+  width: 100%;
 }
 
 b {

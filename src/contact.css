@@ -16,6 +16,10 @@
 .body-contact {
     background: var(--gradient1);
 }
+
+.navItems li a:hover {
+    color: aliceblue !important;
+}
 .form {
     width:340px;
     height:440px;

@@ -211,7 +211,6 @@
 }
 
 .h-skills-div{
-    margin-bottom: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -301,6 +300,13 @@
         flex-direction: row-reverse;
     }
 
+
+}
+
+@media (max-height: 720px){
+    .s-skills-div {
+        margin-top: 20vh;
+    }
 }
 
 @media (max-width: 385px){

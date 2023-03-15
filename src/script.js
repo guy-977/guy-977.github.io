@@ -198,3 +198,21 @@ const touchSlide = (() => {
     // call mobile on touch end
     slider.addEventListener("touchend", mobile)
 })()
+
+
+// download cv
+const cvButton = document.querySelector('.cv-link')
+const contactButton = document.querySelector('.contact-link')
+
+cvButton.addEventListener('click' , ()=> {
+    const cvLink = document.createElement('a')
+    cvLink.href = 'https://drive.google.com/file/d/1iUYQgFrkvvgJL8aVYmvlNsCgb_mEGV55/view?usp=sharing'
+    cvLink.target = '_blank'
+    cvLink.click()
+})
+
+contactButton.addEventListener('click', () => {
+    const contactLink = document.createElement('a')
+    contactLink.href = 'contact.html'
+    contactLink.click()
+})

@@ -858,3 +858,8 @@ footer .wave#wave4 {
     }
 }
 /* // Responsive Style // */
+
+
+.mb-3 label, .modal-title{
+  color: black ;
+}

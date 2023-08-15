@@ -1,0 +1,73 @@
+*::after::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin: 1rem;
+}
+
+.project {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to left, rgb(53, 134, 255), rgb(76, 70, 255), rgb(83, 14, 255));
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-height: 200px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    justify-self: center;
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #222831;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    max-width: 100px;
+}
+
+.project a:hover {
+    background-color: #555;
+}

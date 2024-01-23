@@ -206,7 +206,7 @@ const contactButton = document.querySelector('.contact-link')
 
 cvButton.addEventListener('click' , ()=> {
     const cvLink = document.createElement('a')
-    cvLink.href = 'https://drive.google.com/file/d/13YtJ2ybuX01hqfrMgHe31JA5QugtYLil/view?usp=sharing'
+    cvLink.href = 'https://drive.google.com/file/d/1M0CDy-lALG2Wt8u8Hrx6StulMKS5VCt0/view?usp=sharing'
     cvLink.target = '_blank'
     cvLink.click()
 })
